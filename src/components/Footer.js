@@ -10,7 +10,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/acunac/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; ACUNAC</li><li>Design: <a href="https://arganarazalvaro.netlify.app/">Argañaraz Alvaro</a></li>
+                <li>&copy; ACUNAC</li><li>Design: <a href="https://arganarazalvaro.netlify.app/">Alvaro Argañaraz</a></li>
             </ul>
         </div>
     </footer>

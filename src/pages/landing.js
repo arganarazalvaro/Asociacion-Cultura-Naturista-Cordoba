@@ -28,7 +28,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/yoga" className="image">
                         <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
@@ -44,7 +44,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/organica" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
@@ -54,13 +54,13 @@ const Landing = (props) => (
                             </header>
                             <p>Cultivar una huerta es también un modo de dar, la naturaleza es pródiga y enseña a compartir. Por eso, cuando compartimos sus frutos cocinando una gran cena para la familia o los amigos, el placer es doble. Sentimos que se cierra un ciclo que siempre vuelve a recomenzar.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/organica" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/principios" className="image">
                         <img src={pic10} alt="" />
                     </Link>
                     <div className="content">
@@ -70,7 +70,7 @@ const Landing = (props) => (
                             </header>
                             <p>Aprender sobre el naturismo puede cambiar tu vida para bien en muy poco tiempo si abrazas sus principios fundamentales. Puedes escuchar sobre cómo mantenerse en contacto con la naturaleza hace que las personas se sientan más vivas y felices, aumenta nuestro potencial y humor.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/principios" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
