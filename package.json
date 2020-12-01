@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "name": "acunac",
+  "description": "Asociacion de cultura naturista de Córdoba",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Argañaraz Alvaro",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -15,7 +15,7 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "gatsby"
+    "Naturismo", "Asociacion de cultura naturista Córdoba", "naturismo Córdoba", "ACUNAC", "tai-chi Córdoba", "yoga Córdoba"
   ],
   "license": "MIT",
   "scripts": {

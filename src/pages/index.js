@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="ACUNAC"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Asociación de Cultura Naturista de Córdoba' },
+                        { name: 'keywords', content: 'ACUNAC, Naturismo' },
                     ]}
                 >
                 </Helmet>
@@ -31,60 +31,59 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Estilo de Vida</h3>
+                                <p>Sentirse bien</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/principios" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Principios Naturistas</h3>
+                                <p>Armonía con la Naturaleza</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/principios" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Yoga</h3>
+                                <p>Cuerpo y mente conectados</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/yoga" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Tai Chí</h3>
+                                <p>Respiración, movimiento y concentración</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/yoga" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Huérta Orgánica</h3>
+                                <p>Producir alimentos saludables</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/organica" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Cocina Vegetariana</h3>
+                                <p>Que tu alimento sea tu medicina</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/organica" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Abrazá el Naturismo</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>El naturismo puede marcar un antes y un despues en todos los aspectos fundamentales de tu vida. Si te interesa saber más sobre este estilo de vida tan maravilloso, que puede beneficiar tu salud física y mental, te invitamos a que conozcas un poco más de nosotros y de las actividades que desarrollamos.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/landing" className="button next">Conocenos</Link></li>
                             </ul>
                         </div>
                     </section>
                 </div>
-
             </Layout>
         )
     }
