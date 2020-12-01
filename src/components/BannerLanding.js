@@ -7,7 +7,7 @@ const BannerLanding = (props) => (
                 <h1>Asociación de Cultura Naturista de Córdoba</h1>
             </header>
             <div className="content">
-                <p>Comprometidos a promover los principios del naturismo<br />
+                <p>Comprometidos a promover los principios del naturismo <br />
                 y a fomentar sus buenas prácticas en la sociedad</p>
             </div>
         </div>
